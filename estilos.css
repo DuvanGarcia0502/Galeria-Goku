@@ -6,6 +6,10 @@
 }
 body{
   font-family: "Montserrat", sans-serif;
+  background-image: url(characters/ChiChi_DBS.webp);
+  background-attachment: local; /*Cam7*/
+  width:80vw; /*Cam16*/
+  height:80vh; /*Cam16*/
 }
 .contenedor{
   max-width: 1200px;
@@ -20,6 +24,7 @@ body{
   border-radius: 8px;
   border: solid 0.5px #cbc3c3;
   display: inline-block;
+  object-fit:scale-down;/*Cam18*/
 }
 .card img{
   display: block;
@@ -54,4 +59,43 @@ body{
 .cam5{
   background-image: url(characters/Android19.webp);
   background-position: center;
+}
+.cam6{
+  background-image: url(characters/dodoria.webp);
+  background-size: cover;
+}
+.cam8{
+background: linear-gradient(45deg, #ff7e5f, #feb47b);
+}
+.cam9{
+  background: radial-gradient(circle, #94e9a6, #c9a0f8);
+}
+.cam10{
+  text-transform:uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px;
+}
+.cam11{
+  font-family: "Bitcount Single Ink", system-ui;
+}
+.cam12{
+  font-size:large ;
+  font-style:italic ;
+  font-weight:900 ;
+}
+.cam13{
+  font-size: 2rem;
+}
+.cam14{
+  margin: 2em;
+  padding: 4em;
+}
+.cam15{
+  margin: 20px;
+  padding: 1em;
+  border-radius: 0.5rem;
+}
+.cam17{
+  max-width:min-content;
+  height: auto;
 }
