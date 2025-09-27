@@ -38,3 +38,20 @@ body{
   color: #515151;
   text-align: center;
 }
+
+.cam1{
+  background: #f7a0a0;
+}
+.cam2{
+  background: rgb(128, 136, 226);
+}
+.cam3{
+  background: rgba(30, 50, 80, 0.5);
+}
+.cam4{
+  background-image: url(characters/Marcarita.webp);
+}
+.cam5{
+  background-image: url(characters/Android19.webp);
+  background-position: center;
+}
